@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+:root {
+  --primary-text-color: #a8aeb1;
+  --text-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bree Serif", serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+.nav-header {
+  margin-left: 50px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(212, 0, 255),
+    rgb(78, 51, 250)
+  );
+  color: white;
+  font-weight: bolder;
+  padding: 12px;
+}
+.nav-item {
+  margin-right: 40px;
+}
+.nav-item > a {
+  text-decoration: none;
+  padding: 12px;
+  font-weight: bolder;
+}
+
+.container-body {
+  display: flex;
+  margin-top: 30px;
+}
+.left-side {
+  width: 50vw;
+}
+.content-left {
+  margin: 25px 50px 0;
+}
+.content-left > h5 {
+  color: #0087ff;
+}
+.content-left > p {
+  margin: 25px 0;
+  font-size: 20px;
+  color: var(--primary-text-color);
+}
+.left-content-video {
+  display: flex;
+  align-items: center;
+}
+.left-content-video > p {
+  margin: 10px;
+  font-weight: bolder;
+}
+
+.right-side {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+  right: 0px;
+}
+.boxs {
+  height: 250px;
+  margin: 20px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.boxs > i {
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-size: larger;
+}
+.boxs > .icon1 {
+  background-color: rgb(75, 83, 243);
+}
+.boxs > .icon2 {
+  background-color: rgb(242, 37, 184);
+}
+.boxs > .icon3 {
+  background-color: rgb(234, 172, 26);
+}
+.boxs > .icon4 {
+  background-color: rgb(26, 234, 199);
+}
+
+.boxs > h4,
+p {
+  margin: 10px;
+}
+.boxs > p {
+  color: var(--primary-text-color);
+}
